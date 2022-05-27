@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerRCont : MonoBehaviour
 {
     public float speed = 5;
-    public float jumpforce = 5;
+    public float jumpForce = 5;
     void Start()
     {
 
@@ -20,7 +20,7 @@ public class PlayerRCont : MonoBehaviour
         //Jump
         if (Input.GetButtonDown("Jump"))
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.down * jumpforce;
+            GetComponent<Rigidbody2D>().velocity = Vector2.down * jumpForce;
         }
     }
 }

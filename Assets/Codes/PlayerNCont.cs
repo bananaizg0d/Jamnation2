@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerNCont : MonoBehaviour
 {
     public float speed = 5;
-    public float jumpforce = 5;
+    public float jumpForce = 5;
+
+    public float fallMultiplier = 5;
     void Start()
     {
         
@@ -18,10 +20,12 @@ public class PlayerNCont : MonoBehaviour
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * speed;
 
         //Jump
-        if (Input.GetButtonDown("Jump"))
-        {
-            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpforce;
-        }
+        //if (Input.GetButtonDown("Jump"))
+        //{
+        //    GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpForce;
+        //}
+
+        //BetterJump
 
     }
 }
