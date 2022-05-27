@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 494046410}
   - component: {fileID: 494046409}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 494046408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edae424dc2dbcfb40b78cee86c78fbf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e79a5e846695184da97ea27b113849c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &494046410
@@ -586,7 +586,7 @@ GameObject:
   - component: {fileID: 629242068}
   - component: {fileID: 629242067}
   m_Layer: 0
-  m_Name: Square (4)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 629242066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edae424dc2dbcfb40b78cee86c78fbf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e79a5e846695184da97ea27b113849c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &629242068
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 735209221}
   m_Layer: 0
   m_Name: PlayerReverse
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 2021214021}
   m_Layer: 0
   m_Name: PlayerNorm
-  m_TagString: Ground
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
