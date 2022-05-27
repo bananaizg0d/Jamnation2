@@ -39,7 +39,7 @@ public class PlayerNCont : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
 
-        //Restart
+
 
     }
     private bool IsGrounded()

@@ -38,14 +38,11 @@ public class PlayerRCont : MonoBehaviour
         {
             rb.velocity += Vector2.down * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
-
-        //Restart
         
     }
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(groundCheck.bounds.center, groundCheck.bounds.size, 0, Vector2.down, 0f, GroundMask);
     }
-
 
 }
