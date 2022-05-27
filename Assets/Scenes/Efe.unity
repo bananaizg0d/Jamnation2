@@ -695,6 +695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 5
+  fallMultiplier: 2.5
 --- !u!1 &2021214016
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,4 +832,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 5
-  fallMultiplier: 5
+  fallMultiplier: 2.5
