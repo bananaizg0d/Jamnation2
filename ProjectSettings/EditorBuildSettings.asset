@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Efe.unity
     guid: 0e73865cfe55e1a45a5bacdfba289bec
+  - enabled: 1
+    path: Assets/Scenes/EfeSceneDeneme.unity
+    guid: f1ca7f29aa7e1f14aa9fb1ed94f1c624
   m_configObjects: {}
